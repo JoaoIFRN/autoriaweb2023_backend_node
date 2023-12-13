@@ -6,7 +6,7 @@ const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   password: senhaBanco,
-  database: 'biblioteca'
+  database: 'banco_tarefas'
 });
 
 connection.connect((err) => {
