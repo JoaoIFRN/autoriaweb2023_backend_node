@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const db = require('../util/db');
+const verificarToken = require('../util/VerificaToken');
 
 /**
  * Executa uma consulta no banco de dados e envia uma resposta.
